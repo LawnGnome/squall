@@ -1,0 +1,13 @@
+{
+  "name": "lawngnome/squall",
+  "require": {
+    "php": ">=7.0",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "@stable"
+  },
+  "autoload": {
+    "psr-4": {"LawnGnome\\Squall\\": "src"}
+  }
+}
